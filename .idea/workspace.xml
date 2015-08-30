@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3673e7c-2e92-41f6-95e5-312fbe391b74" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IC/w1c2/HelloWorld.html" afterPath="$PROJECT_DIR$/A04/HelloWorld.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IC/w1c2/forms.html" afterPath="$PROJECT_DIR$/A04/forms.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/A04/HelloWorld.html" afterPath="$PROJECT_DIR$/A04/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A04/forms.html" afterPath="$PROJECT_DIR$/A04/forms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,8 +28,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorld.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/A04/HelloWorld.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A04/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-9.583333">
               <caret line="152" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
@@ -45,8 +45,8 @@
       <file leaf-file-name="forms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/A04/forms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7966102">
-              <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.18644068">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -79,6 +79,7 @@
         <option value="$PROJECT_DIR$/HelloWorld.html" />
         <option value="$PROJECT_DIR$/IC/w1c2/HelloWorld.html" />
         <option value="$PROJECT_DIR$/IC/w1c2/forms.html" />
+        <option value="$PROJECT_DIR$/A04/forms.html" />
       </list>
     </option>
   </component>
@@ -440,12 +441,12 @@
       <option name="number" value="Default" />
       <updated>1440618142930</updated>
       <workItem from="1440618144921" duration="1735000" />
-      <workItem from="1440930932126" duration="5499000" />
+      <workItem from="1440930932126" duration="5580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7234000" />
+    <option name="totallyTimeSpent" value="7315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="411" y="23" width="868" height="732" extended-state="0" />
@@ -492,7 +493,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/A04/HelloWorld.html">
+    <entry file="file://$PROJECT_DIR$/A04/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -511,7 +512,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A04/HelloWorld.html">
+    <entry file="file://$PROJECT_DIR$/A04/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.583333">
           <caret line="152" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
@@ -525,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A04/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7966102">
-          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.18644068">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
