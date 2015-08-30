@@ -1,65 +1,164 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
 <html>
 <head>
-  <style>
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    li {
-      display: inline;
-    }
-  </style>
-    <title> Hello World </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
-    <![endif]-->
-
-    <!-- Load Bootstrap JavaScript components -->
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <title>This Is One Big Table</title>
 
 </head>
 
-<body>
-<div class="container">
+<body style="margin: 0px; padding: 0px;">
 
-  <div id="sidebar">Summary Window</div>
-  <div id="header"><h1 align="center">Hello World!</h1></div>
-  <ul>
-    <li><a href="HelloWorld.html">Home</a></li>
-    <li><a href="forms.html">Forms</a></li>
-  </ul>
-  <div id="content"></div>
-  <div id="footer"></div>
-</div>
-<table style="width:100%">
+<table width="100%" style="height: 100%;" cellpadding="10" cellspacing="0" border="1">
   <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
+
+    <!-- ============ HEADER SECTION ============== -->
+    <td align="center" colspan="2" style="height: 100px;"><h1>My "Cool" Website</h1></td>
   </tr>
+
+
+  <!-- ============ NAVIGATION BAR SECTION ============== -->
   <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
+    <td colspan="2" valign="middle" height="30"><a href="HelloWorld.html">Home</a> &nbsp;<a href="forms.html">Forms</a></td>
+  </tr>
+
+  <tr>
+    <!-- ============ LEFT COLUMN (MENU) ============== -->
+    <td width="30%" valign="top">
+      <table width="100%">
+        <tr>
+          <td align="center">Summary Window
+
+          </td>
+        </tr>
+
+
+      </table>
+
+      <table width="100%">
+        <tr>
+          <td align="center"><p>HTML supports tables.</p>
+
+          </td>
+        </tr>
+
+      </table>
+<br>
+      <table width="100%">
+        <tr>
+          <td align="center"><p>HTML supports three different types of lists: unordered, ordered, and description.</p>
+          </td>
+        </tr>
+
+
+      </table>
+
+<br>
+    </td>
+
+    <!-- ============ RIGHT COLUMN (CONTENT) ============== -->
+    <td width="80%" valign="top">
+
+      <h2>Home Page</h2>
+
+      Tables:<br>
+      <br>
+      <table>
+        <caption>Borderless Table</caption>
+
+        <tr>
+          <td align="center">
+            <b>Header 1</b>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <p>Row 1, Col 1</p>
+          </td>
+        </tr>
+
+
+      </table>
+      <br>
+      <table border="1">
+        <caption>Bordered Table</caption>
+
+
+        </tr>
+        <tr>
+          <td align="center">
+            <b>Header 1</b>
+          </td>
+          <td align="center">
+            <b>Header 2</b>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <p>Row 1, Col 1</p>
+          </td>
+          <td align="center">
+            <p>Row 1, Col 2</p>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <p>Row 2, Col 1</p>
+          </td>
+          <td align="center">
+            <p>Row 2, Col 2</p>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <p>Footer 1</p>
+          </td>
+          <td align="center">
+            <p>Footer 2</p>
+          </td>
+        </tr>
+
+      </table>
+      <br>
+      Lists:
+      <br>
+      <ul>
+        <li>
+          Coffee
+        </li>
+        <li>
+          Milk
+        </li>
+      </ul>
+      <ol>
+        <li>
+          Coffee
+        </li>
+        <li>
+          Milk
+        </li>
+      </ol>
+      <dl>
+        <dt>
+          Coffee
+        </dt>
+        <dd>Hot black drink</dd>
+        <dt>Milk</dt>
+        <dd>Cold white drink</dd>
+      </dl>
+      <br>
+      <p>This web page has a two column layout with header, navigation bar, and footer. There is a fairly large header, narrow navigation bar.</p>
+
+      <p>The main section of the website takes up 100% of the page. The left sidebar is center aligned.</p>
+    </td>
+  </tr>
+
+  <!-- ============ FOOTER SECTION ============== -->
+  <tr>
+    <td colspan="2" align="center" height="20">Copyright (C) Spencer Allen</td>
   </tr>
 </table>
-
-
-
-
-<p>Welcome to my website.</p>
-<ol></ol>
 </body>
-</html>
+
+<html>
+
