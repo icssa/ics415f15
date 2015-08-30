@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3673e7c-2e92-41f6-95e5-312fbe391b74" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IC/w1c2/HelloWorld.html" afterPath="$PROJECT_DIR$/IC/w1c2/HelloWorld.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IC/w1c2/forms.html" afterPath="$PROJECT_DIR$/IC/w1c2/forms.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IC/w1c2/HelloWorld.html" afterPath="$PROJECT_DIR$/A04/HelloWorld.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IC/w1c2/forms.html" afterPath="$PROJECT_DIR$/A04/forms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,7 +29,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="HelloWorld.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IC/w1c2/HelloWorld.html">
+        <entry file="file://$PROJECT_DIR$/A04/HelloWorld.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-9.583333">
               <caret line="152" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
@@ -43,10 +43,10 @@
         </entry>
       </file>
       <file leaf-file-name="forms.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IC/w1c2/forms.html">
+        <entry file="file://$PROJECT_DIR$/A04/forms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2881356">
-              <caret line="77" column="57" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.7966102">
+              <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -147,11 +147,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="w1c2" />
+              <option name="myItemId" value="A04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -172,6 +168,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/A04" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -439,12 +440,12 @@
       <option name="number" value="Default" />
       <updated>1440618142930</updated>
       <workItem from="1440618144921" duration="1735000" />
-      <workItem from="1440930932126" duration="5349000" />
+      <workItem from="1440930932126" duration="5499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7084000" />
+    <option name="totallyTimeSpent" value="7234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="411" y="23" width="868" height="732" extended-state="0" />
@@ -491,7 +492,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IC/w1c2/HelloWorld.html">
+    <entry file="file://$PROJECT_DIR$/A04/HelloWorld.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -510,7 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IC/w1c2/HelloWorld.html">
+    <entry file="file://$PROJECT_DIR$/A04/HelloWorld.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.583333">
           <caret line="152" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
@@ -522,10 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IC/w1c2/forms.html">
+    <entry file="file://$PROJECT_DIR$/A04/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2881356">
-          <caret line="77" column="57" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.7966102">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
