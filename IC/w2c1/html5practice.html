@@ -18,7 +18,7 @@
 
     <!-- ============ HEADER SECTION ============== -->
     <td align="center" colspan="2" style="height: 100px;">
-      <header><h1>My "Cool" Website</h1></header>
+      <header><h1>HTML5</h1></header>
     </td>
   </tr>
 
@@ -35,9 +35,13 @@
     <!-- ============ LEFT COLUMN (MENU) ============== -->
     <td width="30%" valign="top">
       <aside>
-        <p>This is a section.</p>
+        <p>This is a section with a video.</p>
+        <video width="400" height="300" controls>
+          <source src="myvideo.mp4" type="video/mp4">
+          your browser does not support this video.
+        </video>
       </aside>
-      <br>
+
     </td>
 
     <!-- ============ RIGHT COLUMN (CONTENT) ============== -->
@@ -46,6 +50,60 @@
 
         <h2>Home Page</h2>
 
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+          <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(95,50,40,0,2*Math.PI);
+
+            ctx.moveTo(0,0);
+            ctx.lineTo(200,100);
+
+            ctx.moveTo(0,0);
+            ctx.lineTo(100,200);
+
+            ctx.moveTo(0,0);
+            ctx.lineTo(50,300);
+            ctx.moveTo(0,0);
+            ctx.lineTo(300,400);
+            ctx.moveTo(200,100);
+            ctx.lineTo(20,40);
+            ctx.moveTo(30,200);
+            ctx.lineTo(30,0);
+            ctx.stroke();
+          </script>
+        </canvas>
+        <form name="myform" action="html5practice.html" method="post">
+
+          <p>The following is a text input:</p>
+          Username
+          <input type="text" name="username">
+          <br>
+          <br>
+
+          <p>Then a password input:</p>
+          Password:
+          <input type="text" name="lastname">
+          <br>
+
+          <p>Radio Buttons:</p>
+          <input type="radio" name="sex" value="male">Male
+          <br>
+          <input type="radio" name="sex" value="female">Female
+
+
+          <p>Checkboxes:</p>
+          <input type="checkbox" name="os" value="windows">Windows
+          <br>
+          <input type="checkbox" name="os" value="osx">OS X
+          <br>
+          <input type="checkbox" name="os" value="linux">Linux
+          <br>
+
+          <p>Submit button to submit form data:</p>
+          <input type="submit" value="Submit">
+        </form>
       </td>
     </section>
 
