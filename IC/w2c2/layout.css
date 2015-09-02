@@ -14,14 +14,13 @@
 #sidebar {
 float:left;
 padding-left:30px;
-  padding-right:20px;
   background-color:yellow;
+  width:37%;
 }
 
 #mainbar {
 float:right;
   padding-right:120px;
-  padding-left:20px;
   min-height: 100%;
   height: auto !important;
   height: 100%;
