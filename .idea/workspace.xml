@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3673e7c-2e92-41f6-95e5-312fbe391b74" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IC/w2c1/html5practice.html" afterPath="$PROJECT_DIR$/IC/w2c1/html5practice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w2c2/myvideo.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w2c2/csspractice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w2c2/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloWorld.iws" />
@@ -54,17 +56,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html5practice.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="html5practice.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IC/w2c1/html5practice.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1779661">
-              <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#td#0;n#section#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csspractice.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IC/w2c2/csspractice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.583333">
+              <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IC/w2c2/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.048859935">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +121,9 @@
         <option value="$PROJECT_DIR$/IC/w2c1/html5practice" />
         <option value="$PROJECT_DIR$/A04/forms.html" />
         <option value="$PROJECT_DIR$/IC/w2c1/html5practice.html" />
+        <option value="$PROJECT_DIR$/IC/w2c2/html5practice.html" />
+        <option value="$PROJECT_DIR$/IC/w2c2/csspractice.html" />
+        <option value="$PROJECT_DIR$/IC/w2c2/layout.css" />
       </list>
     </option>
   </component>
@@ -170,6 +198,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="w2c2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ics415f15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="w2c1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -205,6 +251,9 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IC/w2c2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/A04" />
     </key>
@@ -476,12 +525,12 @@
       <updated>1440618142930</updated>
       <workItem from="1440618144921" duration="1735000" />
       <workItem from="1440930932126" duration="5647000" />
-      <workItem from="1441045595130" duration="3394000" />
+      <workItem from="1441045595130" duration="5497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10776000" />
+    <option name="totallyTimeSpent" value="12879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="411" y="23" width="868" height="732" extended-state="0" />
@@ -606,14 +655,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IC/w2c1/html5practice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1779661">
-          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#td#0;n#section#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IC/w2c2/csspractice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.583333">
+          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IC/w2c2/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.048859935">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

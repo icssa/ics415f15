@@ -1,0 +1,51 @@
+#mainhead {
+  text-align: center;
+  background-color:lawngreen;
+}
+
+#navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 30px;
+  background-color:red;
+}
+
+#sidebar {
+float:left;
+padding-left:30px;
+  padding-right:20px;
+  background-color:yellow;
+}
+
+#mainbar {
+float:right;
+  padding-right:120px;
+  padding-left:20px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+  background-color:lightblue;
+  width:50%;
+
+}
+
+#mainfoot
+{
+  position: relative;
+  margin-top: -(60px); /* Note the negative value */
+  height: (60px);
+  clear:both;
+  text-align:center;
+  padding-top:100px;
+  padding-right:80px;
+  background-color:grey;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+  height:100%;
+  padding-bottom:60px;   /* Height of the footer */
+}
