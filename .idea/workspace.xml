@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3673e7c-2e92-41f6-95e5-312fbe391b74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w4c1/dean1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w4c1/dean2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w4c1/dean3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w4c1/three.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w4c1/two.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w4c1/w4c1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w4c1/w4c1layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IC/w4c1/w4c1.html" afterPath="$PROJECT_DIR$/IC/w4c1/w4c1.html" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +38,8 @@
       <file leaf-file-name="w4c1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IC/w4c1/w4c1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59322035">
-              <caret line="204" column="56" selection-start-line="204" selection-start-column="56" selection-end-line="204" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.26271185">
+              <caret line="155" column="46" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -502,12 +495,12 @@
       <workItem from="1440618144921" duration="1735000" />
       <workItem from="1440930932126" duration="5647000" />
       <workItem from="1441045595130" duration="17246000" />
-      <workItem from="1442223085498" duration="7767000" />
+      <workItem from="1442223085498" duration="8166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32395000" />
+    <option name="totallyTimeSpent" value="32794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="452" y="23" width="827" height="732" extended-state="0" />
@@ -797,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IC/w4c1/w4c1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59322035">
-          <caret line="204" column="56" selection-start-line="204" selection-start-column="56" selection-end-line="204" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.26271185">
+          <caret line="155" column="46" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
           <folding />
         </state>
       </provider>
