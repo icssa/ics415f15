@@ -64,11 +64,37 @@
 
 html, body {
   height: 95%;
-  color: magenta;
   background-color:lightskyblue;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
+}
+
+
+
+.img-thumbnail
+{
+  -webkit-box-shadow: -1px 11px 59px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 11px 59px 5px rgba(0,0,0,0.75);
+  box-shadow: -1px 11px 59px 5px rgba(0,0,0,0.75);
+  margin-right:10px;
+  margin-left:10px;
+  margin-bottom:5px;
+
+}
+
+#dean1
+{
+  -webkit-transform: rotate(-15deg);
+}
+#dean2
+{
+  -webkit-transform: rotate(7deg);
+}
+
+#dean3
+{
+  -webkit-transform: rotate(-8deg);
 }
