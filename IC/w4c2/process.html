@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -18,16 +20,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" type="text/css" href="w4c1layout.css">
+  <link rel="stylesheet" type="text/css" href="w4c2layout.css">
 
   <!-- font awesome !-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/journal/bootstrap.min.css">
   <title>B O O T S T R A P B O Y S</title>
+
 </head>
 <body>
-<div id="header" class="container" >
+<div id="header" class="container">
   <div id="page-header" class="page-header">
     <h1 id="headertext">Header
       <i class="fa fa-twitter fa-spin" onclick="headerChange()"></i></h1>
@@ -39,7 +42,7 @@
       <div id="navcontainer" class="container-fluid">
         <div>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="w4c1.html">Home</a></li>
+            <li class="active"><a href="w4c2.html">Home</a></li>
             <li><a href="two.html">Two</a></li>
             <li><a href="three.html">Three</a></li>
           </ul>
@@ -81,9 +84,9 @@
 
       <ul class="nav nav-tabs">
         <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
-        <li><a href="w4c1.html"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a></li>
-        <li><a href="w4c1.html"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a></li>
-        <li><a href="w4c1.html"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a></li>
+        <li><a href="w4c2.html"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a></li>
+        <li><a href="w4c2.html"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a></li>
+        <li><a href="w4c2.html"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a></li>
       </ul>
       <div class="panel-group">
         <div class="panel panel-default">
@@ -104,55 +107,18 @@
 
         <div class="panel panel-default">
           <div class="panel-body">
-            <h4 align="center"> Enter the tweetzone:</h4>
-
-            <div style="padding: 10px 100px 10px;">
-              <form class="bs-example bs-example-form" role="form">
-                <div class="input-group">
-                  <span class="input-group-addon">@</span>
-                  <input type="text" class="form-control" placeholder="twitterhandle">
-                </div>
-                <br>
-
-                <div class="input-group">
-                  <input type="text" class="form-control">
-                  <span class="input-group-addon">.00</span>
-                </div>
-                <br>
-
-                <div class="input-group">
-                  <span class="input-group-addon">$</span>
-                  <input type="text" class="form-control">
-                  <span class="input-group-addon">.00</span>
-                </div>
-              </form>
-
-              <form class="form-horizontal" role="form">
-                <div class="input-group">
-                  <label for="inputfield1" class="col-sm-2 control-label">Input 1</label>
-
-                  <div class="col-sm-4">
-                    <input type="text" class="form-control" id="inputfield1" placeholder="Input 1">
-                  </div>
-
-                  <label for="inputfield2" class="col-sm-2 control-label">Input 2</label>
-
-                  <div class="col-sm-4">
-                    <input type="text" class="form-control" id="inputfield2" placeholder="Input 2">
-                  </div>
-                </div>
-            </div>
+            <h4 align="center"> The Stuff You Entered:</h4>
+            <table style="width:100%">
+              <tr>
+                <td>
+                  <SCRIPT type="text/javascript">getUsername();</SCRIPT>
+                </td>
+                <td>Smith</td>
+                <td>50</td>
+              </tr>
+            </table>
           </div>
 
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <img src="dean1.jpg" id="dean1" class="img-thumbnail" alt="dean1" width="10%" height="10%" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
-              <img src="dean2.jpg" id="dean2" class="img-thumbnail" alt="dean2" width="10%" height="10%" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
-              <img src="dean3.jpg" id="dean3" class="img-thumbnail" alt="dean3" width="10%" height="10%" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)">
-
-
-            </div>
-          </div>
           <br><br><br><br><br><br><br><br><br>
         </div>
 
@@ -195,20 +161,24 @@
     x.style.width = "10%";
   }
 
-  function headerChange()
-  {
+  function headerChange() {
     document.getElementById("page-header").innerHTML = "i'm different now ";
   }
 
-  function opacityUp()
-  {
+  function opacityUp() {
     document.getElementById("footer").style.opacity = .5;
   }
 
-  function opacityDown()
-  {
+  function opacityDown() {
     document.getElementById("footer").style.opacity = .3;
   }
+
+  $(document).ready(function getUsername() {
+    var a = window.location.href;
+    a = a.match(/[^?]?username=([^&])&/);
+    return a;
+  });
+
 
 </script>
 </body>

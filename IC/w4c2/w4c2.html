@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="w4c2layout.css">
+
+  <!-- font awesome !-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/journal/bootstrap.min.css">
+  <title>B O O T S T R A P B O Y S</title>
+</head>
+<body>
+
+
+<div class="row">
+  <nav id="navbar" class="navbar navbar-default">
+    <div id="navcontainer" class="container-fluid">
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="w4c2.html">Home</a></li>
+          <li><a href="process.html">process</a></li>
+          <li><a href="three.html">Three</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<div class="row">
+
+  <div id="mainbar" class="col-md-12">
+    <h4>Main Page</h4>
+    <br>
+
+
+    <h4 align="center"> Enter stuff:</h4>
+
+    <div>
+      <form name="myform" action="process.html" method="get">
+
+        <p>Username:</p>
+
+        <input type="text" name="username">
+        <br>
+        <br>
+
+        <p>Address:</p>
+
+        <input type="text" name="lastname">
+        <br>
+        <p>Phone Number:</p>
+
+        <input type="text" name="lastname">
+        <br>
+
+        <p>Submit:</p>
+        <input type="submit" value="Submit">
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+
+  </div>
+</div>
+
+
+<div id="footer" class="navbar navbar-fixed-bottom" onmouseover="opacityUp()" onmouseleave="opacityDown()">
+  <p> Footer</p>
+
+
+  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+</div>
+
+
+<script>
+  var i = 0;
+  function changeColor() {
+
+    if (i < 1) {
+      document.getElementById("mainbar").style.color = "white";
+      document.getElementById("sidebar").style.color = "black";
+      i++;
+    }
+    else {
+      document.getElementById("mainbar").style.color = "black";
+      document.getElementById("sidebar").style.color = "white";
+      i--;
+    }
+  }
+
+  function bigImg(x) {
+    x.style.height = "25%";
+    x.style.width = "25%";
+  }
+
+  function normalImg(x) {
+    x.style.height = "10%";
+    x.style.width = "10%";
+  }
+
+  function headerChange() {
+    document.getElementById("page-header").innerHTML = "i'm different now ";
+  }
+
+  function opacityUp() {
+    document.getElementById("footer").style.opacity = .5;
+  }
+
+  function opacityDown() {
+    document.getElementById("footer").style.opacity = .3;
+  }
+
+</script>
+</body>
+</html>
