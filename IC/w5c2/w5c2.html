@@ -61,7 +61,7 @@
       <br>
       <button id="changecolors">Change Colors AND use ajax to get text from textfile</button>
       <br>
-      <button id="foreignbutton">I get something from another server(no i don't)</button>
+      <button id="foreignbutton">I get something from another server</button>
     </div>
     <div id="mainbar" class="col-md-9">
       <h4>Main Page</h4>
@@ -250,9 +250,23 @@
 
   $(document).ready(function(){
     $("#foreignbutton").click(function(){
-      $("p").postMessage("http://textfiles.com/computers/1003v-mm");
+      $("p").postMessage("http://textfiles.com/computers/1003v-mm", jsonp);
+
     });
   });
+
+
+  var apiUrl = "//ajax.googleapis.com/ajax/services/feed/load?v=1.0&output=json&callback=?&q=http://www.npr.org/rss/rss.php?id=2";
+  $("#foreignbutton").click(function(){
+    $.getJSON(apiUrl, function(data)
+    {
+      var word = data.responseData.feed.entries[0].title.replace(": Dictionary.com Word of the Day","");
+      var definition = data.responseData.feed.entries[0].content;
+
+      $("p").html("<h1><em>" + word + "</em></h1>" + "<p>" + definition + "</p>");
+    });
+  });
+
 
 </script>
 </body>
