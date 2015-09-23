@@ -21,7 +21,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" type="text/css" href="w5c1layout.css">
+  <link rel="stylesheet" type="text/css" href="w5c2layout.css">
 
   <!-- font awesome !-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -42,7 +42,7 @@
       <div id="navcontainer" class="container-fluid">
         <div>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="w5c1.html">Home</a></li>
+            <li class="active"><a href="w5c2.html">Home</a></li>
             <li><a href="two.html">Two</a></li>
             <li><a href="three.html">Three</a></li>
           </ul>
@@ -59,10 +59,13 @@
 
       <p>This is the first page, which has some content.</p>
       <br>
-      <button id="changecolors">Change Colors</button>
+      <button id="changecolors">Change Colors AND use ajax to get text from textfile</button>
+      <br>
+      <button id="foreignbutton">I get something from another server(no i don't)</button>
     </div>
     <div id="mainbar" class="col-md-9">
       <h4>Main Page</h4>
+      <p>There is enough content for everybody.</p>
       <br>
 
       <form class="form-inline" role="form" method="get">
@@ -84,9 +87,9 @@
 
       <ul class="nav nav-tabs">
         <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
-        <li><a href="w5c1.html"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a></li>
-        <li><a href="w5c1.html"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a></li>
-        <li><a href="w5c1.html"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a></li>
+        <li><a href="w5c2.html"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a></li>
+        <li><a href="w5c2.html"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a></li>
+        <li><a href="w5c2.html"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a></li>
       </ul>
       <div class="panel-group">
         <div class="panel panel-default">
@@ -149,7 +152,7 @@
 
           <div class="panel panel-default">
             <div class="panel-body">
-              <img src="dean1.jpg" id="dean1" class="img-thumbnail" alt="dean1" width="10%" height="10%" >
+              <img src="dean1.jpg" id="dean1" class="img-thumbnail" alt="dean1" width="10%" height="10%">
               <img src="dean2.jpg" id="dean2" class="img-thumbnail" alt="dean2" width="10%" height="10%">
               <img src="dean3.jpg" id="dean3" class="img-thumbnail" alt="dean3" width="10%" height="10%">
 
@@ -175,8 +178,7 @@
 <script>
   var i = 0;
 
-  $("#changecolors").click(function()
-  {
+  $("#changecolors").click(function () {
 
     if (i < 1) {
       $("#mainbar").css('color', 'white');
@@ -203,7 +205,18 @@
 
 
   $("#birdbtn").click(function () {
-    $("#headertext").html("Tweet Tweet");
+    if (i < 1)
+    {
+      $("#mainbar").hide();
+      $("#sidebar").hide();
+      i++;
+    }
+    else
+    {
+      $("#mainbar").show();
+      $("#sidebar").show();
+      i--;
+    }
   });
 
   $("#footer").mouseenter(function () {
@@ -214,15 +227,32 @@
     $(this).animate({'opacity': '0.2'}, 700);
   });
 
-$("div").hover(function()
-{
-  $(this).animate({'opacity': '1'}, 700);
+  $("div").hover(function () {
 
-},
-function()
-{
-  $(this).animate({'opacity': '0.3'}, 500);
-});
+        $(this).animate({'fontSize': '1.1em'});
+      },
+      function () {
+
+        $(this).animate({'fontSize': '1em'});
+      });
+
+  $(document).ready(function(){
+    $("#changecolors").click(function(){
+      $("p").load("ajaxtest.txt");
+    });
+  });
+
+  $(document).ready(function(){
+    $("#foreignbutton").click(function(){
+      $("#dean2").load("https://raw.githubusercontent.com/icssa/ics415f15/master/IC/w5c1/dean1.jpg");
+    });
+  });
+
+  $(document).ready(function(){
+    $("#foreignbutton").click(function(){
+      $("p").postMessage("http://textfiles.com/computers/1003v-mm");
+    });
+  });
 
 </script>
 </body>
