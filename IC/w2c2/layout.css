@@ -1,0 +1,70 @@
+#mainhead {
+  text-align: center;
+  background-color:lawngreen;
+  height:50px;
+  position:relative;
+  top:0;
+}
+
+#navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color:hotpink;
+}
+
+#sidebar {
+float:left;
+  background-color:yellow;
+  width:30%;
+  height:90%;
+  position:relative;
+}
+
+#mainbar {
+float:right;
+  min-height: 100%;
+  height: auto !important;
+  height: 90%;
+  margin: 0 auto -4em;
+  background-color:lightblue;
+  width:70%;
+  padding-bottom:120px;
+
+}
+
+#mainfoot
+{
+  position: relative;
+  margin-top: (60px); /* Note the negative value */
+  height:50px;
+  clear:both;
+  text-align:center;
+  background-color:antiquewhite;
+  bottom:0;
+  padding-top:50px;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+  height:90%;
+  padding-bottom:60px;   /* Height of the footer */
+}
+
+#myvideo
+{
+  float:left;
+  position:relative;
+  width:10%;
+  padding-right:50px;
+  padding-top:100px;
+}
+
+video
+{
+  padding-left:10px;
+  width: 900%;
+  height: 900%;
+}

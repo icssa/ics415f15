@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Latest compiled and minified CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="w4c2layout.css">
+
+  <!-- font awesome !-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/journal/bootstrap.min.css">
+  <title>B O O T S T R A P B O Y S</title>
+</head>
+<body>
+<div id="header" class="container">
+  <div id="page-header" class="page-header">
+    <h1 id="headertext">Header
+      <i class="fa fa-twitter fa-spin" onclick="headerChange()"></i></h1>
+
+  </div>
+
+  <div class="row">
+    <nav id="navbar" class="navbar navbar-default">
+      <div id="navcontainer" class="container-fluid">
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="w4c2.html">Home</a></li>
+            <li><a href="process.html">process</a></li>
+            <li><a href="three.html">Three</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="row">
+    <div id="sidebar" class="col-md-3">
+      <h4>Sidebar</h4>
+      <br>
+
+      <p>This is the first page, which has some content.</p>
+      <br>
+      <button onclick="changeColor()">Change Colors</button>
+    </div>
+    <div id="mainbar" class="col-md-9">
+      <h4>Main Page</h4>
+      <br>
+
+
+
+      <h4 align="center"> The Stuff You Entered:</h4>
+      <table id="myTable" border="1">
+        <tr>
+          <td id="username">
+            <p>a</p>
+          </td>
+          <td id="address">
+            <p>a</p>
+          </td>
+          <td id="phone">
+            <p>a</p>
+          </td>
+        </tr>
+      </table>
+      <button type="button" onclick="getUsername()">Username</button>
+      <button type="button" onclick="getAddress()">Address</button>
+      <button type="button" onclick="getPhone()">Phone</button>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br><br>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="footer" class="navbar navbar-fixed-bottom" onmouseover="opacityUp()" onmouseleave="opacityDown()">
+    <p> Footer</p>
+
+
+    <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+  </div>
+</div>
+
+<script>
+  var i = 0;
+  function changeColor() {
+
+    if (i < 1) {
+      document.getElementById("mainbar").style.color = "white";
+      document.getElementById("sidebar").style.color = "black";
+      i++;
+    }
+    else {
+      document.getElementById("mainbar").style.color = "black";
+      document.getElementById("sidebar").style.color = "white";
+      i--;
+    }
+  }
+
+  function bigImg(x) {
+    x.style.height = "25%";
+    x.style.width = "25%";
+  }
+
+  function normalImg(x) {
+    x.style.height = "10%";
+    x.style.width = "10%";
+  }
+
+  function headerChange() {
+    document.getElementById("page-header").innerHTML = "i'm different now ";
+  }
+
+  function opacityUp() {
+    document.getElementById("footer").style.opacity = .5;
+  }
+
+  function opacityDown() {
+    document.getElementById("footer").style.opacity = .3;
+  }
+
+  function getUsername() {
+
+    var url = window.location.href;
+    var myregexp = /^[^?]*\?username=([^&]*)&.*$/;
+    var match = myregexp.exec(url);
+
+    var myTable = document.getElementById('myTable');
+    var mystring = "";
+
+    var res = match[1].replace(/\+/g, ' ');
+    myTable.rows[0].cells[0].innerHTML = res;
+
+    console.log(match);
+
+  }
+
+  function getAddress() {
+
+    var url = window.location.href;
+    var myregexp = /^[^&]*\&address=([^&]*)&.*$/;
+    var match = myregexp.exec(url);
+    var myTable = document.getElementById('myTable');
+
+
+    var res = match[1].replace(/\+/g, ' ');
+    myTable.rows[0].cells[1].innerHTML = res;
+
+    console.log(match);
+
+  }
+
+  function getPhone() {
+
+    var url = window.location.href;
+    var myregexp = /^[^&]*&[^&]*&phone=(.*)$/;
+    var match = myregexp.exec(url);
+
+
+    var myTable = document.getElementById('myTable');
+
+
+    myTable.rows[0].cells[2].innerHTML = match[1];
+
+    console.log(res);
+
+  }
+
+</script>
+</body>
+</html>
